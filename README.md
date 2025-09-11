@@ -65,10 +65,12 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 2. 플래시 스크립트를 통한 설치<br>
 3. balenaEtcher를 사용하여 SD카드를 부팅 디스크로 생성<br><br>
 
-<b>3rd Party 보드 설치:</b><br>
-- 보드 제조사에서 제공하는 플래시 스크립트 사용<br><br>
+반면, 3rd Party 보드인 경우에는 보드 제조사에서 플래시 스크립트를 제공하고 있습니다. 각 보드에 맞는 설치 지침을 따라 진행하면 됩니다. 
 
-관련 블로그 링크 및 설치 스크립트 참고 가능
+avermedia 및 jetpack 설치 는 아래 링크를 통해 확인할 수 있습니다. 
+<br>
+[설치 가이드](https://github.com/MDSTech-Jetson/Jetson-Setup-Guide)
+
 </p>
 </details>
 
@@ -81,7 +83,7 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 <br>
 <p>
 ✅ <b>답변:</b><br>
-최소 64GB 이상 SD 카드 사용 추천
+Jetson 모듈에 사용할 SD 카드는 기본적으로 최소 64GB의 용량을 가진 SD 카드를 사용하는 것을 추천합니다. 
 </p>
 </details>
 
@@ -94,8 +96,11 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 <p>
 <br>
 ✅ <b>답변:</b><br>
-SDK Manager에서 스토리지 옵션을 "NVMe"로 선택하거나,<br>
-플래시 스크립트에서 SSD 파티션 지정 시 SSD에 설치 가능
+SSD에 설치하고 부팅하는 과정은 크게 다르지 않습니다.<br>
+SDK Manager를 통한 설치 과정 중 스토리지 선택 옵션에서 "NVMe"를 선택하면 SSD에 설치 및 부팅이 가능합니다.
+<br>
+플래시 스크립트를 통한 설치 과정 중 명령어 입력 시 스토리지 선택 옵션을 nvme0np1과 같이 SSD 파티션으로 입력하면 설치할 수 있습니다.
+자세한 설치 방법은 “1) Jetson은 어떻게 설치해야 하나요? ”에서 확인할 수 있습니다.
 </p>
 <img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/2-3.png?raw=true" width="830"/>
 </details>
@@ -109,8 +114,8 @@ SDK Manager에서 스토리지 옵션을 "NVMe"로 선택하거나,<br>
 <br>
 <p>
 ✅ <b>답변:</b><br>
-USB로 연결 후 터미널에서 <code>lsusb</code> 입력<br>
-"NVIDIA Corp. APX"가 보이면 리커버리 모드 진입
+리커버리 모드에서 USB로 연결한 후, 호스트 PC에서 터미널을 열고 “lsusb”를 입력합니다.<br>
+결과 목록에서 “NVIDIA Corp. APX”라는 항목을 확인하면 Jetson이 리커버리 모드에 진입한 것입니다. 만약 리커버리 모드가 아니라면 NVIDIA Corp. APX로 표시되는 장치가 없습니다.
 </p>
 <img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/2-4.png?raw=true" width="830"/>
 </details>
@@ -126,11 +131,12 @@ USB로 연결 후 터미널에서 <code>lsusb</code> 입력<br>
 <br>
 <p>
 ✅ <b>답변:</b><br>
-JetPack은 Jetson에서 AI 추론 소프트웨어 개발을 위한 라이브러리 환경 제공<br>
-- Jetson Linux (L4T) 위에서만 작동<br>
-- x86 기반 윈도우/리눅스는 설치 불가
+JetPack은 Jetson에서 AI추론 소프트웨어를 개발하기 위한 라이브러리 환경을 제공하며 모든 SW 플랫폼은 LTS Linux 커널이 있는 Jetson Linux (L4T) 위에 구축되어집니다.
 </p>
 <img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/3-1.png?raw=true" width="830"/>
+<p>
+JetPack 이외에 일반적인 리눅스나 윈도우를 Jetson 모듈에 설치하는 것은 불가능합니다. Jetson 모듈은 ARM 아키텍처를 기반으로 하고 있어, 일반적인 x86 기반의 윈도우나 리눅스는 호환되지 않습니다. 특히, SoC 형태로 제공되는 GPU 커널 드라이버는 NVIDIA에서 제공하므로 JetPack의 사용이 필수적입니다.
+</p>
 </details>
 
 ---
@@ -143,8 +149,7 @@ JetPack은 Jetson에서 AI 추론 소프트웨어 개발을 위한 라이브러�
 <p>
 ❌ <b>답변:</b><br>
 불가능합니다.<br>
-- JetPack 6 → Jetson Orin 시리즈만 지원<br>
-- Jetson Nano → JetPack 4까지 지원<br><br>
+Jetson Nano는 JetPack 6을 지원하지 않습니다. JetPack 6은 Jetson Orin 시리즈만 지원합니다. Jetson Nano는 JetPack 4 버전까지 지원됩니다.
 
 JetPack 지원 리스트<br>
 | JetPack 버전 | AGX Orin | Orin Nano | Orin NX | Xavier NX | AGX Xavier | TX2 | Nano | TX1 |
