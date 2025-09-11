@@ -1,7 +1,4 @@
 # 🚀 Jetson Setup Guide FAQ
-
----
-
 <h2>설치환경</h2>
 
 <details>
