@@ -1,11 +1,11 @@
-# Jetson Setup Guide FAQ
+# 🚀 Jetson Setup Guide FAQ
 
 ---
 
 ## 🖥 설치환경
 
 <details>
-<summary>💡 Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?</summary>
+<summary>💡 **Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?**</summary>
 <p>
 ✅ **답변:** 네, Jetson 모듈을 설치하고 설정하기 위해서는 Host PC가 필요합니다.  
 Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 데 사용됩니다.  
@@ -16,7 +16,7 @@ Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 �
 </details>
 
 <details>
-<summary>💡 Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요?</summary>
+<summary>💡 **Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요?**</summary>
 <p>
 ✅ **답변:** Jetson 설치 소프트웨어는 리눅스에서만 제공됩니다.  
 Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서는 설치가 불가능합니다.  
@@ -25,7 +25,7 @@ Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서
 </details>
 
 <details>
-<summary>💡 Q3. Host PC의 우분투는 어떤 버전으로 설치해야 하나요?</summary>
+<summary>💡 **Q3. Host PC의 우분투는 어떤 버전으로 설치해야 하나요?**</summary>
 <p>
 ✅ **답변:** JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 </p>
@@ -42,7 +42,7 @@ Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서
 ## ⚙ 설치 방법
 
 <details>
-<summary>💡 Q1. Jetson은 어떻게 설치해야 하나요?</summary>
+<summary>💡 **Q1. Jetson은 어떻게 설치해야 하나요?**</summary>
 <p>
 ✅ **답변:** 개발 키트인지 3rd Party 보드인지 먼저 확인합니다.
 
@@ -59,14 +59,14 @@ Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서
 </details>
 
 <details>
-<summary>💡 Q2. 어떤 SD카드를 사용해야 하나요?</summary>
+<summary>💡 **Q2. 어떤 SD카드를 사용해야 하나요?**</summary>
 <p>
 ✅ **답변:** 최소 64GB 이상 SD 카드 사용 추천
 </p>
 </details>
 
 <details>
-<summary>💡 Q3. SSD에 설치해서 부팅하고 싶은데 설치방법이 다른가요?</summary>
+<summary>💡 **Q3. SSD에 설치해서 부팅하고 싶은데 설치방법이 다른가요?**</summary>
 <p>
 ✅ **답변:** SDK Manager에서 스토리지 옵션을 "NVMe"로 선택하거나,  
 플래시 스크립트에서 SSD 파티션 지정 시 SSD에 설치 가능
@@ -75,7 +75,7 @@ Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서
 </details>
 
 <details>
-<summary>💡 Q4. 리커버리 모드인지 어떻게 확인하죠?</summary>
+<summary>💡 **Q4. 리커버리 모드인지 어떻게 확인하죠?**</summary>
 <p>
 ✅ **답변:** USB로 연결 후 터미널에서 `lsusb` 입력  
 "NVIDIA Corp. APX"가 보이면 리커버리 모드 진입
@@ -88,7 +88,7 @@ Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서
 ## 🧩 Jetson SW - JetPack
 
 <details>
-<summary>💡 Q1. JetPack이 뭔가요? 윈도우나 일반 리눅스를 설치하면 안 되나요?</summary>
+<summary>💡 **Q1. JetPack이 뭔가요? 윈도우나 일반 리눅스를 설치하면 안 되나요?**</summary>
 <p>
 ✅ **답변:** JetPack은 Jetson에서 AI 추론 소프트웨어 개발을 위한 라이브러리 환경 제공  
 - Jetson Linux (L4T) 위에서만 작동  
@@ -98,20 +98,18 @@ Host PC는 **우분투** 운영체제 사용을 권장하며, 윈도우 PC에서
 </details>
 
 <details>
-<summary>💡 Q2. Jetson Nano에 JetPack 6 설치가 가능한가요?</summary>
+<summary>💡 **Q2. Jetson Nano에 JetPack 6 설치가 가능한가요?**</summary>
 <p>
 ❌ **답변:** 불가능합니다.  
 - JetPack 6 → Jetson Orin 시리즈만 지원  
 - Jetson Nano → JetPack 4까지 지원
-</p>
-</details>
 
----
-
-## 🗂 JetPack 지원 보드
+JetPack 지원 리스트
 
 | JetPack 버전 | AGX Orin | Orin Nano | Orin NX | Xavier NX | AGX Xavier | TX2 | Nano | TX1 |
 |-------------|----------|-----------|---------|-----------|------------|-----|------|-----|
 | 6           | O        | O         | O       |           |            |     |      |     |
 | 5           | O        | O         | O       | O         | O          |     |      |     |
 | 4           |          |           |         | O         | O          | O   | O    | O   |
+</p>
+</details>
