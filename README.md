@@ -18,7 +18,7 @@ Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 �
 
 <details>
 <summary>
-<h3><b> Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요? </b></h3>
+<b> Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요? </b>
 </summary>
 <p>
 <br>
@@ -31,7 +31,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 
 <details>
 <summary>
-<h3><b> Q3. Host PC의 우분투는 어떤 버전으로 설치해야 하나요?</b></h3> 
+<b> Q3. Host PC의 우분투는 어떤 버전으로 설치해야 하나요?</b>
 </summary>
 <br>
 <p>
@@ -52,7 +52,7 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 
 <details>
 <summary>
-<h3><b> Q1. Jetson은 어떻게 설치해야 하나요? </b></h3> 
+<b> Q1. Jetson은 어떻게 설치해야 하나요? </b>
 </summary>
 <br>
 <p>
@@ -73,7 +73,7 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 
 <details>
 <summary>
-<h3><b> Q2. 어떤 SD카드를 사용해야 하나요? </b></h3> 
+<b> Q2. 어떤 SD카드를 사용해야 하나요? </b>
 </summary>
 <br>
 <p>
@@ -84,7 +84,7 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 
 <details>
 <summary>
-<h3><b> Q3. SSD에 설치해서 부팅하고 싶은데 설치방법이 다른가요? </b></h3> 
+<b> Q3. SSD에 설치해서 부팅하고 싶은데 설치방법이 다른가요? </b>
 </summary>
 <p>
 <br>
@@ -97,7 +97,7 @@ SDK Manager에서 스토리지 옵션을 "NVMe"로 선택하거나,<br>
 
 <details>
 <summary>
-<h3><b> Q4. 리커버리 모드인지 어떻게 확인하죠? </b></h3> 
+<b> Q4. 리커버리 모드인지 어떻게 확인하죠? </b>
 </summary>
 <br>
 <p>
@@ -114,7 +114,7 @@ USB로 연결 후 터미널에서 <code>lsusb</code> 입력<br>
 
 <details>
 <summary>
-<h3><b> Q1. JetPack이 뭔가요? <br>윈도우나 일반 리눅스를 설치하면 안 되나요? </b></h3> 
+<b> Q1. JetPack이 뭔가요? <br>윈도우나 일반 리눅스를 설치하면 안 되나요? </b>
 </summary>
 <br>
 <p>
@@ -128,7 +128,7 @@ JetPack은 Jetson에서 AI 추론 소프트웨어 개발을 위한 라이브러�
 
 <details>
 <summary>
-<h3><b> Q2. Jetson Nano에 JetPack 6 설치가 가능한가요? </b></h3> 
+<b> Q2. Jetson Nano에 JetPack 6 설치가 가능한가요? </b>
 </summary>
 <br>
 <p>
