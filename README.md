@@ -10,7 +10,7 @@
 Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 데 사용됩니다.<br><br>
 ⚠️ <b>주의:</b> Jetson 설치를 위한 Host PC는 <b>리눅스 운영체제</b>여야 하며, 가상 머신에서는 설치가 지원되지 않습니다.
 </p>
-<img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/1-1.jpg?raw=true" width="830"/>
+<img src="https://github.com/MDSTech-Jetson/FAQ/blob/main/img/1-1.jpg?raw=true" width="830"/>
 </details>
 
 ---
@@ -106,7 +106,7 @@ SDK Manager를 통한 설치 과정 중 스토리지 선택 옵션에서 "NVMe"�
 플래시 스크립트를 통한 설치 과정 중 명령어 입력 시 스토리지 선택 옵션을 nvme0np1과 같이 SSD 파티션으로 입력하면 설치할 수 있습니다.
 자세한 설치 방법은 “1) Jetson은 어떻게 설치해야 하나요? ”에서 확인할 수 있습니다.
 </p>
-<img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/2-3.png?raw=true" width="830"/>
+<img src="https://github.com/MDSTech-Jetson/FAQ/blob/main/img/2-3.png?raw=true" width="830"/>
 </details>
 
 ---
@@ -121,7 +121,7 @@ SDK Manager를 통한 설치 과정 중 스토리지 선택 옵션에서 "NVMe"�
 리커버리 모드에서 USB로 연결한 후, 호스트 PC에서 터미널을 열고 “lsusb”를 입력합니다.<br>
 결과 목록에서 “NVIDIA Corp. APX”라는 항목을 확인하면 Jetson이 리커버리 모드에 진입한 것입니다. 만약 리커버리 모드가 아니라면 NVIDIA Corp. APX로 표시되는 장치가 없습니다.
 </p>
-<img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/2-4.png?raw=true" width="830"/>
+<img src="https://github.com/MDSTech-Jetson/FAQ/blob/main/img/2-4.png?raw=true" width="830"/>
 </details>
 
 ---
@@ -137,7 +137,7 @@ SDK Manager를 통한 설치 과정 중 스토리지 선택 옵션에서 "NVMe"�
 ✅ <b>답변:</b><br>
 JetPack은 Jetson에서 AI추론 소프트웨어를 개발하기 위한 라이브러리 환경을 제공하며 모든 SW 플랫폼은 LTS Linux 커널이 있는 Jetson Linux (L4T) 위에 구축되어집니다.
 </p>
-<img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/3-1.png?raw=true" width="830"/>
+<img src="https://github.com/MDSTech-Jetson/FAQ/blob/main/img/3-1.png?raw=true" width="830"/>
 <p>
 JetPack 이외에 일반적인 리눅스나 윈도우를 Jetson 모듈에 설치하는 것은 불가능합니다. Jetson 모듈은 ARM 아키텍처를 기반으로 하고 있어, 일반적인 x86 기반의 윈도우나 리눅스는 호환되지 않습니다. 특히, SoC 형태로 제공되는 GPU 커널 드라이버는 NVIDIA에서 제공하므로 JetPack의 사용이 필수적입니다.
 </p>
