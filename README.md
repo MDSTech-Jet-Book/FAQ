@@ -5,9 +5,7 @@
 <h2>설치환경</h2>
 
 <details>
-<summary>
-***Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?***
-</summary>
+<summary> <b> Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요? </b> </summary>
 <p>
 <br>
 ✅ <b>답변:</b><br>
