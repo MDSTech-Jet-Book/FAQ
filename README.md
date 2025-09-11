@@ -5,7 +5,7 @@
 <h2>🖥 설치환경</h2>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
@@ -17,8 +17,8 @@ Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 �
 </details>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
-💡 Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요?
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
+💡 Q2. Host PC는 꼭 우분투 PC여야 하나요? <br>윈도우 PC 사용은 불가능한가요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
 ✅ <b>답변:</b> Jetson 설치 소프트웨어는 리눅스에서만 제공됩니다.<br>
@@ -28,7 +28,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 </details>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q3. Host PC의 우분투는 어떤 버전으로 설치해야 하나요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
@@ -47,7 +47,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 <h2>⚙ 설치 방법</h2>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q1. Jetson은 어떻게 설치해야 하나요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
@@ -66,7 +66,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 </details>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q2. 어떤 SD카드를 사용해야 하나요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
@@ -75,7 +75,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 </details>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q3. SSD에 설치해서 부팅하고 싶은데 설치방법이 다른가요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
@@ -86,7 +86,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 </details>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q4. 리커버리 모드인지 어떻게 확인하죠?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
@@ -101,8 +101,8 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 <h2>🧩 Jetson SW - JetPack</h2>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
-💡 Q1. JetPack이 뭔가요? 윈도우나 일반 리눅스를 설치하면 안 되나요?
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
+💡 Q1. JetPack이 뭔가요? <br>윈도우나 일반 리눅스를 설치하면 안 되나요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
 ✅ <b>답변:</b> JetPack은 Jetson에서 AI 추론 소프트웨어 개발을 위한 라이브러리 환경 제공<br>
@@ -113,7 +113,7 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 </details>
 
 <details>
-<summary style="font-size: 1.2em; line-height: 1.6; font-weight: bold;">
+<summary style="font-size: 1.1em; line-height: 1.6; font-weight: bold; margin-bottom: 8px;">
 💡 Q2. Jetson Nano에 JetPack 6 설치가 가능한가요?
 </summary>
 <p style="margin-top: 12px; line-height: 1.6;">
