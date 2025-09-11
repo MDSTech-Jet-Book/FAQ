@@ -124,7 +124,7 @@ USB로 연결 후 터미널에서 <code>lsusb</code> 입력<br>
 
 <details>
 <summary>
-<b> Q1. JetPack이 뭔가요? <br>윈도우나 일반 리눅스를 설치하면 안 되나요? </b>
+<b> Q1. JetPack이 뭔가요? 윈도우나 일반 리눅스를 설치하면 안 되나요? </b>
 </summary>
 <br>
 <p>
