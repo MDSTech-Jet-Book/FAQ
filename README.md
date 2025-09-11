@@ -6,7 +6,7 @@
 
 <details>
 <summary>
-<h3>***Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?***</h3>
+***Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?***
 </summary>
 <p>
 <br>
