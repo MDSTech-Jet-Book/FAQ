@@ -67,9 +67,13 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 
 반면, 3rd Party 보드인 경우에는 보드 제조사에서 플래시 스크립트를 제공하고 있습니다. 각 보드에 맞는 설치 지침을 따라 진행하면 됩니다. 
 
-avermedia 및 jetpack 설치 는 아래 링크를 통해 확인할 수 있습니다. 
+avermedia 및 jetpack 설치 는 아래 링크를 통해 확인할 수 있습니다.
+
 <br>
-[설치 가이드](https://github.com/MDSTech-Jetson/Jetson-Setup-Guide)
+자세한 설치 가이드는 
+<b><a href="https://github.com/MDSTech-Jetson/Jetson-Setup-Guide">
+설치 가이드 보기
+</a></b>에서 확인하세요.<br>
 
 </p>
 </details>
