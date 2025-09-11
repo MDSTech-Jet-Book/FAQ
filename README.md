@@ -5,9 +5,9 @@
 ## 🖥 설치환경
 
 <details>
-<summary>💡 **Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?**</summary>
+<summary>💡 ** Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요? **</summary>
 <p>
-✅ **답변:** 네, Jetson 모듈을 설치하고 설정하기 위해서는 Host PC가 필요합니다.  
+✅ <b> 답변: </b> 네, Jetson 모듈을 설치하고 설정하기 위해서는 Host PC가 필요합니다.  
 Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 데 사용됩니다.  
 
 ⚠️ **주의:** Jetson 설치를 위한 Host PC는 **리눅스 운영체제**여야 하며, 가상 머신에서는 설치가 지원되지 않습니다.
