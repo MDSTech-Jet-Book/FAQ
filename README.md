@@ -16,6 +16,8 @@ Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 �
 <img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/1-1.jpg?raw=true" width="830"/>
 </details>
 
+---
+
 <details>
 <summary>
 <b> Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요? </b>
@@ -28,6 +30,8 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 가상 머신을 사용할 경우 USB로 Jetson을 인식할 수 없어 설치가 불가능합니다.
 </p>
 </details>
+
+---
 
 <details>
 <summary>
@@ -71,6 +75,8 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 </p>
 </details>
 
+---
+
 <details>
 <summary>
 <b> Q2. 어떤 SD카드를 사용해야 하나요? </b>
@@ -81,6 +87,8 @@ JetPack 버전에 따라 Host PC 우분투 버전이 달라집니다.
 최소 64GB 이상 SD 카드 사용 추천
 </p>
 </details>
+
+---
 
 <details>
 <summary>
@@ -94,6 +102,8 @@ SDK Manager에서 스토리지 옵션을 "NVMe"로 선택하거나,<br>
 </p>
 <img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/2-3.png?raw=true" width="830"/>
 </details>
+
+---
 
 <details>
 <summary>
@@ -125,6 +135,8 @@ JetPack은 Jetson에서 AI 추론 소프트웨어 개발을 위한 라이브러�
 </p>
 <img src="https://github.com/MDSTech-Jetson/FAQ/blob/myungsu/img/3-1.png?raw=true" width="830"/>
 </details>
+
+---
 
 <details>
 <summary>
