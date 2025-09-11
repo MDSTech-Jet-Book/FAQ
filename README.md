@@ -6,9 +6,9 @@
 
 <details>
 <summary>
-<h3><b>Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?</b></h3>
+<h3>***Q1. Jetson을 설치하는데 Host PC가 꼭 필요한가요?***</h3>
 </summary>
-<p style="margin-top: 12px; line-height: 1.8;">
+<p>
 <br>
 ✅ <b>답변:</b><br>
 네, Jetson 모듈을 설치하고 설정하기 위해서는 Host PC가 필요합니다.<br><br>
@@ -20,7 +20,7 @@ Host PC는 Jetson 운영 체제를 설치하고 초기 설정을 수행하는 �
 
 <details>
 <summary>
-<h3><b> Q2. Host PC는 꼭 우분투 PC여야 하나요? <br>윈도우 PC 사용은 불가능한가요?</b></h3>
+<h3><b> Q2. Host PC는 꼭 우분투 PC여야 하나요? 윈도우 PC 사용은 불가능한가요? </b></h3>
 </summary>
 <p>
 <br>
