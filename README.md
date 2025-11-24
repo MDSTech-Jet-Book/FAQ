@@ -152,11 +152,12 @@ Jetson Nano는 JetPack 6을 지원하지 않습니다. JetPack 6은 Jetson Orin 
 
 JetPack 지원 리스트<br>
 
-| JetPack 버전 | AGX Thor | AGX Orin  | Orin Nano | Orin NX   | Xavier NX | AGX Xavier | TX2 | Nano | TX1 |
-|-------------|----------|-----------|-----------|-----------|------------|-----|------|-----|-----|
-| 7           | O        |           |           |           |            |     |      |     |     |
-| 6           |          | O         | O         | O         |            |     |      |     |     |
-| 5           |          | O         | O         | O         | O          | O   |      |     |     |
-| 4           |          |           |           |           | O          | O   | O    | O   | O   |
+| JetPack 버전 | AGX Thor | AGX Orin | Orin Nano | Orin NX | Xavier NX | AGX Xavier | TX2 | Nano | TX1 |
+|--------------|----------|----------|-----------|---------|-----------|------------|-----|------|-----|
+| 7            | O        |          |           |         |           |            |     |      |     |
+| 6            |          | O        | O         | O       |           |            |     |      |     |
+| 5            |          | O        | O         | O       | O         | O          |     |      |     |
+| 4            |          |          |           |         | O         | O          | O   | O    | O   |
+
 </p>
 </details>
