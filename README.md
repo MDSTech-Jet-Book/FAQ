@@ -41,11 +41,11 @@ Host PC는 <b>우분투</b> 운영체제 사용을 권장하며, 윈도우 PC에
 
 | JetPack 버전 | SDK Manager | 필요 Ubuntu LTS 버전 | 스크립트 설치 |
 |-------------|-------------|------------|---------------|
-| JetPack 7.x   | 지원        | 22.04 LTS, 24.04 LTS  | Host PC 우분투 버전 제안 없음 |
-| JetPack 6.1.x or 6.2.x   | 지원        | 20.04 LTS, 22.04 LTS, 24.04 LTS  | Host PC 우분투 버전 제안 없음 |
-| JetPack 6.0.x  | 지원        | 20.04 LTS, 22.04 LTS  | Host PC 우분투 버전 제안 없음 |
-| JetPack 5.x   | 지원        | 18.04 LTS, 20.04 LTS  | Host PC 우분투 버전 제안 없음 |
-| JetPack 4.x   | 지원        | 16.04 LTS, 18.04 LTS  | Host PC 우분투 버전 제안 없음 |
+| JetPack 7.x   | 지원        | 22.04 / 24.04 LTS  | Host PC 우분투 버전 제안 없음 |
+| JetPack 6.1.x or 6.2.x   | 지원        | 20.04 / 22.04 / 24.04 LTS  | Host PC 우분투 버전 제안 없음 |
+| JetPack 6.0.x  | 지원        | 20.04 / 22.04 LTS  | Host PC 우분투 버전 제안 없음 |
+| JetPack 5.x   | 지원        | 18.04 / 20.04 LTS  | Host PC 우분투 버전 제안 없음 |
+| JetPack 4.x   | 지원        | 16.04 / 18.04 LTS  | Host PC 우분투 버전 제안 없음 |
 </details>
 
 ---
@@ -151,10 +151,12 @@ JetPack 이외에 일반적인 리눅스나 윈도우를 Jetson 모듈에 설치
 Jetson Nano는 JetPack 6을 지원하지 않습니다. JetPack 6은 Jetson Orin 시리즈만 지원합니다. Jetson Nano는 JetPack 4 버전까지 지원됩니다.
 
 JetPack 지원 리스트<br>
-| JetPack 버전 | AGX Orin | Orin Nano | Orin NX | Xavier NX | AGX Xavier | TX2 | Nano | TX1 |
-|-------------|----------|-----------|---------|-----------|------------|-----|------|-----|
-| 6           | O        | O         | O       |           |            |     |      |     |
-| 5           | O        | O         | O       | O         | O          |     |      |     |
-| 4           |          |           |         | O         | O          | O   | O    | O   |
+
+| JetPack 버전 | AGX Thor | AGX Orin  | Orin Nano | Orin NX   | Xavier NX | AGX Xavier | TX2 | Nano | TX1 |
+|-------------|----------|-----------|-----------|-----------|------------|-----|------|-----|-----|
+| 7           | O        |           |           |           |            |     |      |     |     |
+| 6           |          | O         | O         | O         |            |     |      |     |     |
+| 5           |          | O         | O         | O         | O          | O   |      |     |     |
+| 4           |          |           |           |           | O          | O   | O    | O   | O   |
 </p>
 </details>
